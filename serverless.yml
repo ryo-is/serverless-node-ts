@@ -19,6 +19,7 @@ functions:
       - http:
           method: get
           path: hello
+          cors: true
           authorizer:
             name: authorizer
             identitySource: method.request.header.Authorization
