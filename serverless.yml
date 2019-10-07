@@ -10,13 +10,19 @@ provider:
   region: ap-northeast-1
 
 functions:
+  authorizer:
+    handler: authorizer/index.handler
   index:
-    handler: handler.index
+    handler: index.handler
     role: DynamoReadRole
     events:
       - http:
           method: get
           path: hello
+          authorizer:
+            name: authorizer
+            identitySource: method.request.header.Authorization
+            type: token
 
 resources:
   Resources:

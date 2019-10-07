@@ -4,7 +4,7 @@ import "source-map-support/register"
 
 const dynamodb: DynamoDB.DocumentClient = new DynamoDB.DocumentClient()
 
-export const index: APIGatewayProxyHandler = async (
+export const handler: APIGatewayProxyHandler = async (
   event: APIGatewayProxyEvent
 ) => {
   console.log(event)
