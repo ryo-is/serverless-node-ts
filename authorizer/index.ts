@@ -2,7 +2,7 @@ import { Handler, Context, Callback, CustomAuthorizerEvent } from "aws-lambda"
 import * as jsonwebtoken from "jsonwebtoken"
 import jwkToPem from "jwk-to-pem"
 import jwk from "./jwk"
-const pem = jwkToPem(jwk)
+const pem = jwkToPem(jwk as any)
 
 export const handler: Handler = async (
   event: CustomAuthorizerEvent,

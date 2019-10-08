@@ -40,6 +40,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/jwk-to-pem@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/jwk-to-pem/-/jwk-to-pem-2.0.0.tgz#770ad9cc70134d47283b3c815a064a06f802d065"
+  integrity sha512-m7ZnE+iJodvhu9XNkMc/1CNkIg7432d/YSB8Qo/4TbD86rZ1GgkB4MVTNqIZG5RCtL0H4iVxiMT2OGTQDZEfHg==
+
 "@types/node@*":
   version "12.7.11"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.11.tgz#be879b52031cfb5d295b047f5462d8ef1a716446"
