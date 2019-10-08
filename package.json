@@ -15,6 +15,7 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.17",
     "@types/jsonwebtoken": "^8.3.4",
+    "@types/jwk-to-pem": "^2.0.0",
     "@types/node": "^10.12.18",
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
