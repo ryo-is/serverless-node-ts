@@ -1,6 +1,5 @@
 import { DynamoDB } from "aws-sdk"
 import { APIGatewayProxyHandler, APIGatewayProxyEvent } from "aws-lambda"
-import "source-map-support/register"
 
 const dynamodb: DynamoDB.DocumentClient = new DynamoDB.DocumentClient()
 
